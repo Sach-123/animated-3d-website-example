@@ -15,7 +15,7 @@ const scene = new THREE.Scene();
 let bee;
 let mixer;
 const loader = new GLTFLoader();
-loader.load('/demon_bee_full_texture.glb', 
+loader.load('/dist/demon_bee_full_texture.glb', 
     (gltf) => {
         bee = gltf.scene;
         scene.add(bee);
